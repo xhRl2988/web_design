@@ -1,0 +1,133 @@
+*{margin: 0 auto; padding: 0; list-style-type: none;}
+a{text-decoration: none; display: block;}
+
+body{
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+    color: #333;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+    background-color: aqua;
+}
+.logo1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+}
+.menu1{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: azure;
+    position: relative;
+}
+
+.bgmenu{
+    width: 1200px;
+    height: 150px;
+    background-color: sandybrown;
+    position: absolute;
+    left: -200px;
+    top: 100px;
+    display: none;
+}
+
+.main{
+    width: 800px;
+    height: 40px;
+    line-height: 40px;
+    background-color: gainsboro;
+    position: absolute;
+    text-align: center;
+    left: 180px;
+    top: 60px;
+}
+
+.main>li{
+    float: left;
+    width: 200px;
+}
+
+.sub>li{
+    background-color: sandybrown;
+}
+
+
+.main>li:hover>a{
+    color: #fff;
+    background-color: brown;
+}
+.sub>li:hover>a{
+    color: #fff;
+    background-color: rgb(250, 162, 162);
+}
+
+.sub{
+    display: none;
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(114, 106, 95);
+}
+
+.imgslide>img{
+    width: 1200px;
+    height: 300px;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+    background-color: beige;
+}
+.nogl{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: antiquewhite;
+}
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: rgb(231, 131, 0);
+}
+.sc{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: rgb(151, 125, 90);
+}
+.bottom{
+    width: 1200px;
+    height: 100px;
+    background-color: brown;
+}
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: chartreuse;
+}
+.bottom_right{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+.menu2{
+    width: 1000px;
+    height: 50px;
+    background-color: yellow;
+}
+.copy{
+    width: 1000px;
+    height: 50px;
+    background-color: yellowgreen;
+}

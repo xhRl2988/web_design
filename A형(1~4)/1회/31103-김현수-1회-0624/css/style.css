@@ -1,0 +1,264 @@
+*{margin: 0 auto; padding: 0; list-style-type: none; color: #333;} 
+a{text-decoration: none; display: block;}
+body{
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+}
+
+.logo1 a{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.logo2 a{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.menu1{
+    width: 1000px;
+    height: 100px;
+    background-color: yellowgreen;
+    float: left;
+    position: relative;
+}
+
+.main{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+}
+
+.main>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    background-color: wheat;
+}
+
+.sub>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    background-color: rgb(185, 168, 233);
+}
+
+.main>li:hover>a{
+    background-color: rgb(202, 97, 66);
+}
+
+.sub>li:hover>a{
+    background-color: rgb(175, 156, 120);
+}
+
+.sub{
+    display: none;
+}
+
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.imglen{
+    width: 1200px;
+    height: 900px;
+}
+
+.imglen li{
+    width: 1200px;
+    height: 300px;
+}
+
+.imglen img{
+    width: 1200px;
+    height: 300px;
+}
+
+.content{
+    width: 1200px;
+    height: 200px;
+}
+
+.nogal{
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+.off{
+    background-color: yellow;
+}
+
+#tab1,#tab2{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+
+.notice{
+    width: 400px;
+    height: 150px;
+    line-height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.gal{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.gal li{
+    width: calc(100% / 3);
+    height: 150px;
+    float: left;
+}
+
+.gal img{
+    width: 100%;
+    height: 150px;
+}
+
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.banner li:nth-child(1){
+    width: 20%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+}
+
+.banner li:nth-child(2){
+    width: 60%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+}
+
+.banner li:nth-child(3){
+    width: 20%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float: left;
+}
+
+.banner img{
+    width: 100%;
+    height: 200px;
+}
+
+.sc{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: violet;
+}
+
+.sc li{
+    width: calc(100% / 3);
+    height: 200px;
+    float: left;
+}
+
+.sc img{
+    width: 100%;
+    height: 200px;
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: powderblue;
+}
+
+.copy{
+    width: 800px;
+    height: 100px;
+    float: left;
+    background-color: rgb(194, 207, 163);
+    font-size: 18px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sns{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: sienna;
+}
+
+.popup{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 33%;
+    right: 33%;
+    background-color: crimson;
+    display: none;
+}
+
+.p_title{
+    width: 500px;
+    height: 50px;
+}
+
+.p_body{
+    width: 500px;
+    height: 400px;
+}
+
+.p_bottom{
+    width: 500px;
+    height: 50px;
+}
+
+.p_button{
+    float: right; 
+}
+
