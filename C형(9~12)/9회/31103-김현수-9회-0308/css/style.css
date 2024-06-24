@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+boby{
+    color: #333;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 650px;
+}
+
+
+
+.top{
+   width: 200px;
+   height: 650px;
+   float: left; 
+   background-color: rgb(149, 149, 238)
+}
+
+
+
+.logo1{
+    width: 200px;
+    height: 100px;
+}
+
+.menu1{
+    width: 200px;
+    height: 550px;
+}
+
+
+
+.body_right{
+    width: 800px;
+    height: 650px;
+    float: left;
+    background-color: #cf2727;
+}
+
+
+
+.imgslide{
+    width: 800px;
+    height: 350px;
+}
+
+
+
+.contents{
+    width: 800px;
+    height: 200px;
+}
+
+
+
+.nogal{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: blanchedalmond;
+}
+
+.banner{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: rgb(241, 185, 101);
+}
+
+.sc{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: rgb(233, 224, 210);
+}
+
+
+
+.bottom{
+    width: 800px;
+    height: 100px;
+}
+
+
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+}
+
+
+.bottom_right{
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+
+
+.menu2{
+    width: 600px;
+    height: 50px;
+    background-color: bisque;
+}
+
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,134 @@
+*{margin: 0; padding: 0; list-style-type: none;}
+a{display: block; text-decoration: none;}
+
+body{
+    width: 1000px;
+    height: 650px;
+    color: #333;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 650px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.menu1{
+    width: 200px;
+    height: 550px;
+    background-color: beige;
+    position: relative;
+}
+
+.sub{
+    width: 200px;
+    height: 210px;
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 190px;
+}
+.main>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+}
+
+.main>li:hover>a{
+    background-color: brown;
+    color: #fff;
+}
+
+.sub>li:hover>a{
+    background-color: rgb(255, 170, 170);
+    color: #fff;
+}
+
+.body_right{
+    width: 800px;
+    height: 650px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.imgslide{
+    width: 800px;
+    height: 350px;
+    background-color: yellow;
+}
+
+.center{
+    width: 800px;
+    height: 200px;
+}
+
+.g{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: coral;
+}
+
+.gr{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: violet;
+}
+
+.banner{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: yellowgreen;
+}
+
+.bottom{
+    width: 800px;
+    height: 100px;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: thistle;
+}
+
+.bottom_right{
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+.menu2{
+    width: 600px;
+    height: 50px;
+    background-color: blue;
+}
+
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: chartreuse;
+}
