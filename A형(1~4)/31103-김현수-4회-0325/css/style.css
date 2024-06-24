@@ -1,0 +1,138 @@
+*{margin: 0 auto; padding: 0; list-style-type: none;}
+a{display: block; text-decoration: none;}
+
+
+body{
+    width: 1200px;
+    height: 700px;
+    color: #333;
+    background-color: #fff;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: rgb(112, 71, 17);
+}
+
+.menu1{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.bgmenu{
+    width: 1200px;
+    height: 150px;
+    position: absolute;
+    background-color: aqua;
+    top: 100px;
+    left: -200px;
+}
+
+.main{
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    float: left;
+}
+
+.main>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: aqua;
+    text-align: center;
+}
+
+.sub>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: aqua;
+    text-align: center;
+}
+
+.main>li:hover>a{
+    background-color: rgb(173, 173, 15);
+    color: #fff;
+}
+
+.sub>li:hover>a{
+    background-color: rgb(241, 241, 173);
+    color: #fff;
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.center{
+    width: 1200px;
+    height: 200px;
+}
+
+.g{
+    width: 400px;
+    height: 200px;
+    background-color: azure;
+    float: left;
+}
+
+.gl{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(30, 143, 143);
+    float: left;
+}
+
+.sc{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(151, 212, 212);
+    float: left;
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+}
+
+.bottom_right{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+.menu2{
+    width: 1000px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.copy{
+    width: 1000px;
+    height: 50px;
+    background-color: yellowgreen;
+}
+
+
+.f{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
