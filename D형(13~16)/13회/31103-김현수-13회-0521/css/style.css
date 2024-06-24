@@ -1,0 +1,195 @@
+*{margin: 0; padding: 0; list-style-type: none;     color: #333;}
+a{text-decoration: none; display: block;}
+.clear{clear: both;}
+
+
+body{
+    width: 100%;
+    height: 950px;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 850px;
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 150px;
+    background-color: yellowgreen;
+}
+
+.logo1 a{
+    width: 200px;
+    height: 54px;
+    padding-top: 48px;
+}
+
+.logo2>a{
+    width: 200px;
+    height: 54px;
+    padding-top: 23px;
+}
+
+.menu1{
+    width: 200px;
+    height: 700px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.main{
+    width: 200px;
+}
+
+.main>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: beige;
+}
+.sub>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(150, 150, 53);
+}
+
+.main>li:hover>a{
+    background-color: rgb(93, 148, 130);
+    color: #fff;
+}
+.sub>li:hover>a{
+    background-color: rgb(55, 145, 115);
+    color: #fff;
+}
+
+.sub{
+    display: none;
+}
+
+.spot{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.spot li{
+    float: left;
+}
+
+.spot li:nth-child(1){
+    width: 90px;
+}
+
+.spot li:nth-child(2){
+    width: 20px;
+}
+
+.spot li:nth-child(3){
+    width: 90px;
+}
+
+.body_right{
+    width: calc(100% - 200px);
+    float: left;
+}
+
+.imgslide_link{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+}
+
+.imgslide{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.imgslide img{
+    width: 100%;
+    height: 400px;
+}
+
+.imglen{
+    width: 100%;
+    height: 1200px;
+}
+
+.imglen li{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.imgtxt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 550px;
+    height: 100px;
+    background-color: #fff;
+    opacity: 0.5;
+    font-size: large;
+    font-weight: bold;
+}
+
+.link{
+    width: 150px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.link li{
+    width: 150px;
+    height: 100px;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.nogal{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(204, 160, 107);
+}
+
+.bottom{
+    width: 100%;
+    height: 100px;
+    background-color: #d3d3d3;
+    float: left;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.copy{
+    width: calc(100% - 400px);
+    height: 100px;
+    background-color: bisque;
+    float: left;
+}
+
+.sns{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: cornsilk;
+}
