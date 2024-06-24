@@ -1,0 +1,221 @@
+*{margin: 0 auto; padding: 0; list-style-type: none; color: #333;}
+a{text-decoration: none; display: block;}
+body{
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+}
+
+.bg_top{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+}
+
+.logo1 a{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.bg_menu{
+    width: 1200px;
+    height: 180px;
+    background-color: rgb(173, 202, 216);
+    position: absolute;
+    top: 100px;
+    left: -200px;
+    display: none;
+}
+
+.menu1{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+
+.main{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+
+.main>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: tomato;
+    float: left;
+}
+
+.sub>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(173, 202, 216);
+    float: left;
+}
+
+.sub{
+    display: none;
+}
+
+.main>li:hover>a{
+    background-color: rgb(133, 235, 93);
+}
+
+.sub>li:hover>a{
+    background-color: rgb(120, 170, 100);
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    background-color: rgb(177, 177, 57);
+    overflow: hidden;
+}
+
+.imglen{
+    width: 1200px;
+    height: 900px;
+}
+
+.imglen li{
+    width: 1200px;
+    height: 300px;
+    float: left;
+}
+
+.content{
+    width: 1200px;
+    height: 200px;
+    border-block-start-color: cornflowerblue;
+}
+
+#tab1{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    background-color: beige;
+}
+
+#tab2{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    background-color: beige;
+}
+
+.notice{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(125, 131, 102);
+    float: left;
+}
+.gal{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(167, 221, 221);
+    float: left;
+}
+.sc{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(72, 160, 160);
+    float: left;
+}
+
+.bg_bottom{
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+    background-color: bisque;
+    position: absolute;
+    top: 600px;
+    left: 0;
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+    background-color: ghostwhite;
+}
+
+.copy{
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    background-color: yellow;
+    float: left;
+}
+
+.copy h5{
+    margin-top: 20px;
+}
+
+.bottom_right{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.sns{
+    width: 200px;
+    height: 50px;
+    background-color: yellowgreen;
+}
+
+.f{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(153, 175, 109);
+}
+
+.popup{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(144, 180, 144);
+}
+
+.p_title{
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.p_body{
+    width: 600px;
+    height: 300px;
+}
+
+.p_bottom{
+    width: 600px;
+    height: 50px;
+    float: right;
+}

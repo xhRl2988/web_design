@@ -1,0 +1,208 @@
+*{margin: 0 auto; padding: 0; list-style-type: none;}
+a{text-decoration: none; display: block;}
+
+body{
+    min-width: 1200px;
+    height: 700px;
+    color: #333;
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color:pink;
+}
+.top{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: aliceblue;
+}
+
+.logo1 a{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.menu1{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: beige;
+    position: relative;
+}
+
+.main{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+}
+
+.main>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    background-color: darkorange;
+}
+
+.sub>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    background-color: rgb(168, 130, 83);
+}
+
+.main>li:hover>a{
+    background-color: grey;
+    color: #fff;
+}
+.sub>li:hover>a{
+    background-color: rgb(146, 102, 102);
+    color: #fff;
+}
+
+.sub{
+    display: none;
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.imglen{
+    width: 3600px;
+    height: 300px;
+}
+.imglen li{
+    width: 1200px;
+    height: 300px;
+    float: left;
+}
+
+.content{
+    width: 1200px;
+    height: 200px;
+}
+
+.nogal{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: aqua;
+    position: relative;
+}
+
+#tab1,#tab2{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+
+.nogal ul{
+    width: 400px;
+    height: 160px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.notice li{
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.notxt{
+    float: right;
+}
+
+.gal li{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 30px 15px;
+}
+  
+
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: rgb(112, 165, 165);
+}
+.sc{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: rgb(62, 133, 133);
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:pink;
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: chocolate;
+}
+
+.logo2 a{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+
+.bottom_right{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+.menu2{
+    width: 1000px;
+    height: 50px;
+    background-color: coral;
+}
+
+.main2{
+    width: 1000px;
+    height: 50px;
+}
+
+
+.copy{
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(153, 96, 75);
+    text-align: center;
+}
