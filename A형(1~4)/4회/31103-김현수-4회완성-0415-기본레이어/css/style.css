@@ -1,0 +1,290 @@
+*{margin: 0 auto; padding: 0; list-style-type: none;}
+a{display: block; text-decoration: none;}
+
+
+body{
+    width: 1200px;
+    height: 700px;
+    color: #333;
+    background-color: #fff;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: rgb(112, 71, 17);
+}
+
+.menu1{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.bgmenu{
+    width: 1200px;
+    height: 150px;
+    position: absolute;
+    background-color: aqua;
+    top: 100px;
+    left: -200px;
+    display: none;
+    z-index: 2;
+}
+
+.main{
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    float: left;
+}
+
+.main>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background-color: rgb(23, 129, 129);
+    text-align: center;
+}
+
+.sub>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.main>li:hover>a{
+    background-color: rgb(173, 173, 15);
+    color: #fff;
+}
+
+.sub>li:hover>a{
+    background-color: rgb(241, 241, 173);
+    color: #fff;
+}
+.sub{
+    display: none;
+    z-index: 3;
+    position: absolute;
+}
+
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.imglen{
+    width: 1200px;
+    height: 900px;
+}
+
+.imglen li{
+    width: 1200px;
+    height: 300px;
+    position: relative;
+}
+
+.imgtxt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(72, 72, 131, 0.336);
+    text-align: center;
+}
+
+
+.center{
+    width: 1200px;
+    height: 200px;
+}
+
+.notice{
+    width: 400px;
+    height: 200px;
+    background-color: azure;
+    float: left;
+    position: relative;
+}
+
+.tab{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.notice ul{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.notice li{
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.gl{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(30, 143, 143);
+    float: left;
+    position: relative;
+}
+
+.gl ul{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.gl li{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+
+.gl img{
+    width: 100px;
+    height: 100px;
+}
+
+.gl img:hover{
+    opacity: 0.5;
+}
+
+.sc{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(151, 212, 212);
+    float: left;
+}
+
+
+.sc ul{
+    width: 400px;
+    height: 200px;
+}
+
+.sc li{
+    width: 100px;
+    height: 130px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+}
+
+.bottom_right{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+.menu2{
+    width: 1000px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.menu2 li{
+    float: left;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-size: smaller;
+}
+
+.copy{
+    width: 1000px;
+    height: 50px;
+    background-color: yellowgreen;
+    font-size: 10px;
+    text-align: center;
+}
+
+.f{
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background-color: blue;
+    float: left;
+    text-align: center;
+}
+
+.f select{
+    width: 120px;
+    height: 40px;
+    margin: 30px 40px;
+}
+
+
+.popup{
+    width: 600px;
+    height: 400px;
+    background-color: brown;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    display: none;
+    z-index: 4;
+}
+
+.p_title{
+    width: 600px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.p_body{
+    width: 600px;
+    height: 300px;
+}
+
+.p_bottom{
+    width: 600px;
+    height: 50px;
+}
+
+button{
+    float: right;
+}
