@@ -1,0 +1,275 @@
+*{margin: 0; padding: 0; list-style-type: none; color: #333;}
+a{text-decoration: none; display: block;}
+
+body{
+    width: 100%;
+    height: 920px;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 800px;
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(128, 66, 66);
+}
+
+.logo1 a{
+    width: 200px;
+    height: 40px;
+}
+
+.logo1 img{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.menu1{
+    width: 200px;
+    height: 700px;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+.bg_menu{
+    width: calc(100vw - 200px);
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background-color: rgba(83, 153, 153, 0.747);
+    display: none;
+    z-index: 2;
+}
+
+.main>li{
+    position: relative;
+}
+
+.main>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.sub{
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    top: 0;
+    left: 200px;
+    display: none;
+    z-index: 3;
+}
+
+.main>li:hover>a{
+    background-color: rgb(168, 155, 136);
+}
+
+.sub>li:hover>a{
+    background-color: rgb(146, 114, 65);
+}
+
+.body_right{
+    width: calc(100% - 200px);
+    height: 800px;
+    float: left;
+}
+
+.imgslide{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgslide li{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+.imgslide a{
+    width: 100%;
+    height: 400px;
+}
+
+.imgslide img{
+    width: 100%;
+    height: 400px;
+}
+
+.link{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.link li{
+    width: calc(100% / 7);
+    height: 150px;
+    float: left;
+}
+
+.link a{
+    width: 100%;
+    height: 150px;
+}
+
+.link img{
+    width: 100%;
+    height: 150px;
+}
+
+.nogal{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(229, 255, 0);
+    position: relative;
+}
+
+#tab1,#tab2{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+
+.off{
+    background-color: bisque;
+}
+
+.notice,.gal{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.notice li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.gal{
+    display: none;
+}
+
+.gal li{
+    width: calc(100% / 3);
+    height: 200px;
+    float: left;
+}
+
+.gal a{
+    width: 100%;
+    height: 200px;
+}
+
+.gal img{
+    width: 100%;
+    height: 200px
+}
+
+.logo2{
+    width: 200px;
+    height: 120px;
+    float: left;
+}
+
+.bottom{
+    width: calc(100% - 200px);
+    height: 120px;
+    float: left;
+}
+
+.bottom_left{
+    width: calc(100% - 300px);
+    height: 120px;
+    float: left;
+}
+
+.menu2{
+    width: 100%;
+    height: 60px;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.menu2 li{
+    width: calc(100% / 6);
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu2 li:hover{
+    background-color: rgb(112, 89, 59);
+}
+
+.copy{
+    width: 100%;
+    height: 60px;
+    background-color: springgreen;
+    font-size: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.f{
+    width: 300px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    float: left;
+    background-color: wheat;
+}
+
+.popup{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 200px;
+    left: 33%;
+    right: 33%;
+    background-color: rgb(151, 226, 185);
+    display: none;
+}
+
+.p_title{
+    width: 600px;
+    height: 50px;
+}
+.p_body{
+    width: 600px;
+    height: 500px;
+}
+
+.p_bottom{
+    width: 600px;
+    height: 50px;
+}
+
+.p_button{
+    float: right;
+}

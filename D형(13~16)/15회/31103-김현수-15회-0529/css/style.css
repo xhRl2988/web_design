@@ -1,0 +1,175 @@
+*{margin: 0; padding: 0; list-style-type: none; color: #333;}
+a{text-decoration: none; display: block;}
+
+body{
+    width: 100%;
+    height: 970px;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 850px;
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 120px;
+    background-color: aqua;
+}
+
+.menu1{
+    width: 200px;
+    height: 730px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.bgmenu{
+    width: calc(100vw - 200px);
+    height: 160px;
+    background-color: rgba(152, 177, 223, 0.479);
+    position: absolute;
+    top: 0;
+    left: 200px;
+    z-index: 1;
+    display: none;
+}
+
+.main>li>a{
+    width: 200px; 65
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.main>li{
+    position: relative;
+}
+
+.main>li:hover>a{
+    background-color: rgb(51, 112, 136);
+    color: #fff;
+}
+
+.sub>li:hover>a{
+    background-color: rgb(89, 172, 207);
+    color: #fff;
+}
+
+.sub{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    z-index: 2000;
+    display: none;
+}
+
+.spot{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spot li:nth-child(1){
+    width: 90px;
+    float: left;
+}
+.spot li:nth-child(2){
+    float: left;
+    width: 20px;
+}
+.spot li:nth-child(3){
+    float: left;
+    width: 90px;
+}
+
+.body_right{
+    width: calc(100% - 200px);
+    height: 850px;
+    float: left;
+}
+
+.img_link{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.imgslide{
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    float: left;
+}
+
+.link{
+    width: 200px;
+    height: 320px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.contnet{
+    width: 100%;
+    height: 450px;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    background-color: blanchedalmond;
+}
+
+.nogal{
+    width: 100%;
+    height: 250px;
+    background-color: brown;
+}
+
+.bottom{
+    width: 100%;
+    height: 120px;
+    float: left;
+}
+
+.logo2{
+    width: 200px;
+    height: 120px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.bottom_right{
+    width: calc(100% - 200px);
+    height: 120px;
+    float: left;
+}
+
+.copy{
+    width: 100%;
+    height: 60px;
+    background-color: yellowgreen;
+}
+
+.menu2{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+}
