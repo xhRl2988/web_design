@@ -1,0 +1,137 @@
+*{margin: 0 auto; padding: 0; list-style-type: none; color: 666;}
+a{text-decoration: none; display: block;}
+
+body{
+    width: 1340px;
+    height: 970px;
+    background-color: #fff;
+}
+
+.top{
+    width: 1340px;
+    height: 100px;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: yellowgreen;
+}
+
+.menu1{
+    width: 1140px;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+    position: relative;
+}
+
+.main{
+    width: 800px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    z-index: 2;
+}
+
+.main>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: aqua;
+    float: left;
+}
+
+.sub>li{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(84, 114, 114);
+    float: left;
+}
+
+.main>li:hover>a{
+    background-color: antiquewhite;
+}
+
+.sub>li:hover>a{
+    background-color: rgb(179, 147, 106);
+}
+
+.sub{
+    display: none;
+}
+
+
+
+.imgslide{
+    width: 100vw;
+    height: 350px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: wheat;
+}
+
+.content{
+    width: 1340px;
+    height: 450px;
+    position: absolute;
+    top: 400px;
+}
+
+.link{
+    width: 1340px;
+    height: 50px;
+    background-color: turquoise;
+}
+
+.banner{
+    width: 1340px;
+    height: 150px;
+    background-color: aqua;
+}
+
+.nogal{
+    width: 1340px;
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+.bottom{
+    width: 1340px;
+    height: 120px;
+    position: absolute;
+    top: 850px;
+}
+
+.logo2{
+    width: 200px;
+    height: 120px;
+    float: left;
+    background-color: bisque;
+}
+
+.bottom_right{
+    width: 1140px;
+    height: 120px;
+    float: left;
+}
+
+.menu2{
+    width: 1140px;
+    height: 60px;
+    background-color: blanchedalmond;
+}
+
+.copy{
+    width: 1140px;
+    height: 60px;
+    background-color: chartreuse;
+}
+
+
