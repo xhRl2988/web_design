@@ -1,0 +1,271 @@
+*{margin: 0; padding: 0; list-style-type: none; color: #333;} 
+a{text-decoration: none; display: block;}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: calc(100% - 120px);
+    float: left;
+}
+
+.logo1{
+    width: 200px;
+    height: 100px;
+    line-height: 120px;
+    background-color: yellowgreen;
+}
+
+.logo1 a{
+    width: 200px;
+    height: 100px;
+}
+
+.logo2 a{
+    width: 200px;
+    height: 120px;
+}
+
+.menu1{
+    width: 200px;
+    height: calc(100% - 100px);
+    background-color: yellow;
+}
+
+.main{
+    width: 200px;
+    height: 160px;
+}
+
+.main>li{
+    position: relative;
+}
+
+.main>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(192, 154, 83);
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgb(153, 134, 99);
+}
+
+.sub{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: none;
+}
+
+.main>li:hover>a{
+    background-color: antiquewhite;
+}
+
+.sub>li:hover>a{
+    background-color: rgb(124, 94, 54);
+}
+
+.body_right{
+    width: 400px;
+    height: calc(100% - 120px);
+    float: left;
+}
+
+.banner{
+    width: 400px;
+    height: calc(100% / 6);
+    background-color: antiquewhite;
+}
+
+#tab1{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: wheat;
+}
+
+#tab2{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: wheat;
+}
+
+.notice{
+    width: 400px;
+    height: calc(100% / 3);
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.notice li{
+    width: 400px;
+    height: 40px;
+    font-size: 13px;
+}
+
+.notxt{
+    float: right;
+}
+
+.gal{
+    width: 400px;
+    height: calc(100% / 3);
+    background-color: rgb(126, 197, 173);
+}
+
+.gal li{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.gal>ul>li:hover{
+    background-color: rgba(156, 126, 87, 0.548);
+}
+
+.link{
+    width: 400px;
+    height: calc(100% / 6);
+    background-color: bisque;
+}
+
+.imgslide{
+    width: calc(100% - 600px);
+    height: calc(100% - 120px);
+    float: left;
+    background-color: beige;
+    overflow: hidden;
+}
+
+.imglen{
+    width: 300%;
+    height: 100%;
+}
+
+.imglen>li{
+    width: calc(100%/ 3);
+    height: 100%;
+    float: left;
+}
+
+.imglen a{
+    width: 100%;
+    height: 100%;
+}
+
+.imglen img{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom{
+    width: 100%;
+    height: 120px;
+    float: left;
+}
+
+.logo2{
+    width: 200px;
+    height: 120px;
+    line-height: 160px;
+    float: left;
+    background-color: wheat;
+}
+
+.bottom_right{
+    width: calc(100% - 400px);
+    height: 120px;
+    float: left;
+}
+
+.menu2{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(152, 120, 182);
+    overflow: hidden;
+}
+
+.menu2>ul>li{
+    width: calc(100% / 6);
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+
+.menu2>ul>li:hover{
+    background-color: antiquewhite;
+}
+
+.copy{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.fs{
+    width: 200px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    float: left;
+    background-color: darkgray;
+}
+
+.bg_popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(127, 255, 212, 0.418);
+    display: none;
+}
+
+.popup{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    right: 40%;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(216, 178, 178);
+    display: none;
+}
+
+.p_title{
+    width: 500px;
+    height: 50px;
+    line-height: 50px;   
+}
+
+.p_body{
+    width: 500px;
+    height: 400px;
+}
+
+.p_bottom{
+    width: 500px;
+    height: 50px;
+}
+
+.p_button{
+    float: right;
+}
